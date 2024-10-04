@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+   background-image: url('zillow1.jpg');
+}
+
+.about-container {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+text-align: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 10px;
+  justify-content:center;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-member {
+  margin: 20px;
+  text-align: center;
+}
+
+

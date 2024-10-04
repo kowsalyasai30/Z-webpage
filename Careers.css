@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('zillow1.jpg');
+  background-size: none;
+  background-position: top;
+  background-color: #f9f9f9;
+}
+
+.careers-container {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align:center;
+}
+
+h1 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.job-listings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.job-listing {
+  margin: 20px;
+  width: 300px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-listing h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+
+
+

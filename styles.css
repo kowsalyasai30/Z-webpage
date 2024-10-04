@@ -1,0 +1,144 @@
+header {
+    background-color: #1e1c35;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  .image {
+    background-image: url('Realestate.jpg');
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+  }
+  
+  
+  
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 20px;
+    text-align:left;
+     
+  }
+  .menu h2 {
+  color: #fff; 
+  font-size: 50px;  
+  font-weight: bold;
+  text-align:left; 
+}
+
+.search-bar {
+  position: absolute; 
+  left: 50px; 
+  top: 40%; 
+  transform: translateY(50%); 
+  width: 50%; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar input[type="search"] {
+  width: 80%;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.search-bar button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+footer {
+  background-color: #1e1c35;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-links {
+  margin: 20px;
+}
+
+.footer-links h3 {
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  text-decoration: underline; 
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+}
+
+  
+  
+  
